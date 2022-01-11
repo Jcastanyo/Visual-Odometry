@@ -5,9 +5,6 @@ In these videos, Nate explains all the theorical concepts you have to know about
 Take a look at the code and run the whole experiment. If you don't understand something, don't hesitate to open an issue. Nonetheless, I recommend you to go to Nate's github because there you can find all the code well explained and the theorical parts.
 https://github.com/FoamoftheSea/KITTI_visual_odometry
 
-# Warning
-If you open the jupyter notebook, you'll see a lot of errors at the end when the final function is executed. Forget about these errors, I just wanted to stop the execution because it was painfully slow. The comparison between ground truth and calculated trajectory is not there because matplotlib generates a new figure outside the jupyter notebook.
-
 I leave here some photos of the results I got in case to want to see it faster. 
 
 # Disparity map
@@ -18,3 +15,7 @@ I leave here some photos of the results I got in case to want to see it faster.
 ![featurematching](https://user-images.githubusercontent.com/84505434/149008939-2825fbc2-bb03-40f8-bd7c-b65917f237d6.png)
 # Comparison between ground truth trajectory and calculated trajectory (green)
 ![Figure_1](https://user-images.githubusercontent.com/84505434/149009125-e8741cd4-ba99-4501-b4d2-a661fc8ba5aa.png)
+
+
+# Warning
+If you open the jupyter notebook, you'll see a lot of errors at the end when the final function is executed. Forget about these errors, I just wanted to stop the execution because it was painfully slow. The comparison between ground truth and calculated trajectory is not there because matplotlib generates a new figure outside the jupyter notebook.
